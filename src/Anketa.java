@@ -24,32 +24,33 @@ public class Anketa extends HttpServlet {
         pw.println("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><title>Anketa result</title></head><body>");
 
         boolean corectFilds = true;
-        if (req.getParameter("firstname").equals("")){
+        if(req.getParameter("firstname").equals("")){
             pw.println("is not a valid first name<br>");
             corectFilds=false;
         }
-        if (req.getParameter("lastname").equals("")){
+        if(req.getParameter("lastname").equals("")){
             pw.println("is not a valid last name<br>");
             corectFilds=false;
         }
         int age=0;
         try{
             age = Integer.parseInt(req.getParameter("age"));
-        } catch (NumberFormatException e){
+        }catch (NumberFormatException e){
             pw.println("age is not an integer<br>");
             corectFilds =false;
         }
 
-        if ((age > 100) || (age < 0)){
+        if((age > 100) || (age < 0)){
             pw.println("is not a valid range of age<br>");
             corectFilds=false;
         }
 
-        if ((req.getParameter("answQuestion1") == null)||req.getParameter("answQuestion2") == null){
+        if((req.getParameter("answQuestion1") == null)||req.getParameter("answQuestion2") == null){
             pw.println("answers to the questions must be chosen<br>");
             corectFilds=false;
         }
-        if (corectFilds){
+
+        if(corectFilds){
             boolean answerOne = false;
             boolean answerTwo = false;
             if (req.getParameter("answQuestion1").equals("yes")) answerOne = true;
@@ -64,10 +65,10 @@ public class Anketa extends HttpServlet {
             int colQtwoYes = 0;
 
             for (Human human: list){
-                if (human.getAnswQuestion1()){
+                if(human.getAnswQuestion1()){
                     colQoneYes++;
                 }
-                if (human.getAnswQuestion2()){
+                if(human.getAnswQuestion2()){
                     colQtwoYes++;
                 }
             }
@@ -78,17 +79,17 @@ public class Anketa extends HttpServlet {
 
             pw.println("<table cellpadding=\"5\" cellspacing=\"0\" border=\"1\"><tr><td>First Name</td><td>Last Name</td><td>Age</td><td>Question #1</td><td>Question #2</td></tr>");
             pw.println("");
-            for (Human human: list ){
+            for(Human human: list ){
                 pw.println("<tr>");
                 pw.println("<td>" + human.getFirstName()+"</td><td>" +
                         human.getLastName() + "</td><td>" + human.getAge() + "</td><td>");
-                if (human.getAnswQuestion1()){
+                if(human.getAnswQuestion1()){
                     pw.print("Yes");
                 }else{
                     pw.print("No");
                 }
                 pw.print("</td><td>");
-                if (human.getAnswQuestion2()){
+                if(human.getAnswQuestion2()){
                     pw.print("Yes");
                 }else{
                     pw.print("No");
