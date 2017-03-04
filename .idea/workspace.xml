@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c91abc94-ac42-47fb-83a0-21a8bddd75d8" name="Default" comment="" />
+    <list default="true" id="c91abc94-ac42-47fb-83a0-21a8bddd75d8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Human.java" afterPath="$PROJECT_DIR$/src/Human.java" />
+    </list>
     <ignored path="Anketa.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Anketa.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Anketa.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Anketa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="22" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.51657456" vertical-offset="1139" max-vertical-offset="1751">
+            <state line="86" column="22" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1751">
               <folding />
             </state>
           </provider>
@@ -100,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Human.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Human.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Human.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="986">
+            <state line="22" column="28" selection-start="601" selection-end="601" vertical-scroll-proportion="0.456" vertical-offset="203" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -129,8 +131,8 @@
       <list>
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Anketa.java" />
-        <option value="$PROJECT_DIR$/src/Human.java" />
         <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/src/Human.java" />
       </list>
     </option>
   </component>
@@ -583,7 +585,7 @@
       <updated>1488386417846</updated>
       <workItem from="1488386421493" duration="2455000" />
       <workItem from="1488622075547" duration="2133000" />
-      <workItem from="1488642628164" duration="298000" />
+      <workItem from="1488642628164" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="anketa final">
       <created>1488622879239</created>
@@ -593,7 +595,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4886000" />
+    <option name="totallyTimeSpent" value="5259000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -756,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="901">
@@ -772,7 +767,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Anketa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="22" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.51657456" vertical-offset="1139" max-vertical-offset="1751">
+        <state line="86" column="22" selection-start="3410" selection-end="3410" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="601" selection-end="601" vertical-scroll-proportion="0.456" vertical-offset="203" max-vertical-offset="765">
           <folding />
         </state>
       </provider>

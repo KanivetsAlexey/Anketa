@@ -20,8 +20,7 @@ public class Human {
         this.age = age;
         this.answQuestion1 = answQuestion1;
         this.answQuestion2 = answQuestion2;
-        synchronized (this)
-        {
+        synchronized (this){
             quantity++;
         }
     }
